@@ -17,6 +17,7 @@ import ReuseableButton from "@/components/button";
 import ScrollTrigger from 'react-scroll-trigger';
 import CountUp from 'react-countup';
 import LargeParagraph from "@/components/TypoGraphy/paragraph-large";
+import ResService from "./_components/res-service";
 
 export default function Page() {
 
@@ -92,6 +93,7 @@ export default function Page() {
       <PortfolioSection/>
       <div className="w-full" ref={servicesTarget}></div>
       <ServicesSection/>
+      {/* <ResService/> */}
       <div className="w-full" ref={reviewsTarget}></div>
       <ReviewsSection/>
       <div className="w-full" ref={abouttarget}></div>

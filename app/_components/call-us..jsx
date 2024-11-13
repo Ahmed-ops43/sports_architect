@@ -43,12 +43,12 @@ export default function CallUsSection() {
 function CallBox() {
 useEffect(()=>{
   (async function () {
-  const cal = await getCalApi({"namespace":"15min"});
+  const cal = await getCalApi({"namespace":"30min"});
   cal("ui", {"styles":{"branding":{"brandColor":"#000000"}},"hideEventTypeDetails":false,"layout":"month_view"});
   })();
 }, [])
-return <Cal namespace="15min"
-  calLink="etralbit/15min"
+return <Cal namespace="30min"
+  calLink="ihtisham-cheema-jnabl1/30min"
   style={{width:"100%",height:"100%",overflow:"hidden"}}
   config={{"layout":"month_view"}}
   className="md:block hidden overflow-hidden"
