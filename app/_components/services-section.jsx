@@ -43,9 +43,9 @@ export default function ResService() {
 
 
 
-          <div className=" flex w-full md:flex-row flex-col justify-between items-start mt-9 md:mt-10 gap-y-4 md:gap-x-6 ">
+          <div className=" flex w-full md:flex-row flex-col justify-between sm:flex-row items-start mt-9 md:mt-10 gap-y-4 md:gap-x-6 ">
             <div className="   flex flex-col md:pt-[30px]">
-              <div className="   flex justify-center  gap-3 text-mainColor md:text-[17px] text-[14px] font-semibold ">
+              <div className="   flex md:pl-4   gap-3 text-mainColor md:text-[17px] text-[14px] font-semibold ">
               <h1>1: </h1>
                 <h1>2D Planning and CAD Drawings</h1>
               </div>
