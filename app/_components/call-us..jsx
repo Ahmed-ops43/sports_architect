@@ -12,22 +12,26 @@ import { useEffect } from "react";
 export default function CallUsSection() {
   return (
     <section className="w-full relative ">
+      <MediumHeading className={"flex gap-[10px] md:px-[50px] px-[15px] items-center"}>
+                <Triangle className={"md:mx-[20px] mx-[5px]"} dark={true} />
+               Start a Project
+            </MediumHeading>
       <Wrapper>
-        <div className="md:rounded-[80px] rounded-[50px] md:mt-0 mt-elementSpace h-full overflow-hidden bg-black py-[50px] px-[15px] relative">
-          <MediumHeading
+        <div className="md:rounded-[80px] rounded-[50px] md:mt-[40px] mt-[20px] h-full overflow-hidden bg-black md:py-[50px] py-[25px] px-[15px] relative">
+          {/* <MediumHeading
             className={"flex gap-[10px]  md:px-[20px] text-white items-center"}
           >
             <Triangle className={"md:mx-[20px] mx-[5px]"} dark={false} />
             Start a Project
-          </MediumHeading>
+          </MediumHeading> */}
 
-<div className="md:mt-sectionSepration mt-elementSpace"></div>
+<div className="md:mt-sectionSepration"></div>
           
           
           <CallBox/>
 
           <div className="w-full flex justify-center"></div>
-          <Link href={"/callus"} className="flex justify-center">
+          <Link href={"/callus"} className="flex  justify-center  ">
           <ReuseableButton className={"w-[80%] md:hidden block"}>Start a Project</ReuseableButton>
           </Link>
 

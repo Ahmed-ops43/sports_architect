@@ -95,6 +95,10 @@ export default function Page() {
       <ServicesSection/>
       {/* <ResService/> */}
       <div className="w-full" ref={reviewsTarget}></div>
+      {/* <MediumHeading className={"flex gap-[10px] md:px-[50px] px-[15px] pt-[40px] items-center"}>
+          <Triangle className={"md:mx-[20px] mx-[5px]"} dark={true} />
+         Reviews
+        </MediumHeading> */}
       <ReviewsSection/>
       <div className="w-full" ref={abouttarget}></div>
       <AboutUsSection/>

@@ -9,15 +9,19 @@ import { motion } from "framer-motion";
 export default function ResService() {
   return (
     <section className="w-full relative ">
-      <Wrapper className={" md:h-[110vh]"}>
-        <div className="md:rounded-[80px] rounded-[50px] h-full overflow-hidden bg-black py-[50px] px-[15px] relative">
+      <MediumHeading className={"flex gap-[10px] md:px-[50px] px-[15px] items-center"}>
+                <Triangle className={"md:mx-[20px] mx-[5px]"} dark={true} />
+                Services
+            </MediumHeading>
+      <Wrapper className={""}  >
+        <div className="md:rounded-[80px] rounded-[50px] h-full overflow-hidden bg-black py-[50px] px-[15px] relative mt-[25px]">
           <div className="z-[3] relative">
-            <MediumHeading
+            {/* <MediumHeading
               className={"flex gap-[10px] md:px-[20px] text-white items-center"}
             >
               <Triangle className={"md:mx-[20px] mx-[5px]"} dark={false} />
               Services
-            </MediumHeading>
+            </MediumHeading> */}
             {/* <SmallHeading className={"text-white mt-[50px] text-center"}>
               3D SPORTS ARCHITECTURE
             </SmallHeading> */}

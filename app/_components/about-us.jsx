@@ -18,12 +18,16 @@ export default function AboutUsSection() {
 
   return (
     <section className='md:py-sectionSepration py-elementSpace'>
-        <Wrapper className={"md:px-[50px] px-[15px] "}>
-            <MediumHeading className={"flex gap-[10px] mt-[-15px] items-center"}>
+        <MediumHeading className={"flex gap-[10px] md:px-[50px] px-[15px] items-center"}>
                 <Triangle className={"md:mx-[20px] mx-[5px]"} dark={true} />
                 About Us
             </MediumHeading>
-            <LargeParagraph className={"w-full max-w-[90%] mt-elementSpace"}>At our sports architecture firm, we specialize in innovative 3D design and planning for dynamic recreational spaces. Our expertise combines precise technical detail with engaging visuals to bring sports facilities to life. We aim to create spaces that inspire connection, activity, and community.</LargeParagraph>
+        <Wrapper className={"md:px-[50px] px-[15px] "}>
+            {/* <MediumHeading className={"flex gap-[10px] mt-[-15px] items-center"}>
+                <Triangle className={"md:mx-[20px] mx-[5px]"} dark={true} />
+                About Us
+            </MediumHeading> */}
+            <LargeParagraph className={"w-full max-w-[90%] md:mt-elementSpace mt-[20px]"}>At our sports architecture firm, we specialize in innovative 3D design and planning for dynamic recreational spaces. Our expertise combines precise technical detail with engaging visuals to bring sports facilities to life. We aim to create spaces that inspire connection, activity, and community.</LargeParagraph>
            
         </Wrapper>
         <OurClients/>
@@ -40,7 +44,7 @@ const OurClients = () =>{
                 <Triangle className={"md:mx-[20px] mx-[5px]"} dark={true} />
                 Our Clients
             </MediumHeading>
-            <div className='mt-elementSpace py-[25px] relative'>
+            <div className='mt-elementSpace md:py-[25px] py-[10px] relative'>
 
             <div className="absolute h-[100%] md:w-[270px] w-[50px] z-[10] top-0 left-0" style={{
               backgroundImage:

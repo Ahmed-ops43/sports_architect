@@ -42,12 +42,19 @@ export default function ReviewsSection() {
   ]
 
   return (
-    <section className=" py-elementSpace">
+    <section className=" mt-sectionSepration">
+
+<MediumHeading className={"flex gap-[10px] md:px-[50px] px-[15px] items-center"}>
+                <Triangle className={"md:mx-[20px] mx-[5px]"} dark={true} />
+                Reviews
+            </MediumHeading>
+       
       <Wrapper className={"md:px-[30px] px-[12px] mt-[-15px]"}>
-        <MediumHeading className={"flex gap-[10px] items-center"}>
+        {/* <MediumHeading className={"flex gap-[10px] items-center"}>
           <Triangle className={"md:mx-[20px] mx-[5px]"} dark={true} />
           Reviews
-        </MediumHeading>
+        </MediumHeading> */}
+        
         <Carousel opts={{loop:true}} plugins={[
         Autoplay({
           delay: 2000,
